@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Isbn</th>
+      <th>Status</th>
+    </tr>
+    <tr *ngFor="let i of isbn">
+      <td>
+        {{i.num}}
+      </td>
+      <td>
+        {{i.status}}
+      </td>
+    </tr>
+  </table>
+</div>
