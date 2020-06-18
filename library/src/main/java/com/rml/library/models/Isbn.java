@@ -19,8 +19,6 @@ public class Isbn {
 	@Column(name = "num")
 	private String num;
 	
-	@Column(name = "status")
-	private int status;
 	
 	public Long getId() {
 		return id;
@@ -36,16 +34,6 @@ public class Isbn {
 
 	public void setIsbnNum(String num) {
 		this.num = num;
-	}
-
-	public int getStatus() {
-		return status;
-	}
-
-	public void setStatus(int status) {
-		this.status = status;
-	}
-	
-	
+	}	
 	
 }
